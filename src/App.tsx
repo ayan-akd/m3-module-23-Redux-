@@ -1,5 +1,5 @@
 import { decrement, increment } from "./redux/features/counter/counterSlice";
-import { useAppDispatch, useAppSelector } from "./redux/hook";
+import { useAppDispatch, useAppSelector } from "./redux/hooks";
 
 function App() {
   const dispatch = useAppDispatch();
